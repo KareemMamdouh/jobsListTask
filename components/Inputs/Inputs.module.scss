@@ -1,0 +1,13 @@
+@import "styles/variables.scss";
+
+.inputField {
+  display: flex;
+  padding: 5px;
+  input {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    border: 2px solid $gray-color;
+    padding: 10px;
+  }
+}

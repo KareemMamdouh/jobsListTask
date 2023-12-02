@@ -1,0 +1,35 @@
+@import "styles/variables.scss";
+
+.jobsPage {
+  display: flex;
+  padding: 15px;
+  .filtersSection {
+    width: 20%;
+    min-height: calc(100vh - 50px);
+  }
+  .jobsSection {
+    width: 80%;
+    padding: 0 10px;
+    font-family: sans-serif;
+    .jobsWrapper {
+      background-color: $gray-light-color;
+      padding: 10px;
+      .headerWrapper {
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        .searchWrapper {
+          width: calc(100% - 125px);
+        }
+        .addJobBtn {
+          width: 120px;
+          border: none;
+          background-color: $primary-color;
+          color: $white-color;
+          padding: 12px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

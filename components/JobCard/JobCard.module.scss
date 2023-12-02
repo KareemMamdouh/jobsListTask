@@ -1,0 +1,42 @@
+@import "styles/variables.scss";
+
+.jobCard {
+  display: flex;
+  padding: 5px 5px;
+  background-color: $white-color;
+  border: 1.4px solid $primary-color;
+  margin: 10px;
+  h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  p:last-child {
+    font-size: 14px;
+    color: $gray-dark-color;
+  }
+  .imageWrapper {
+    display: flex;
+    align-items: center;
+  }
+  .contentWrapper {
+    padding: 0px 15px;
+    width: 70%;
+  }
+  .actionsWrapper {
+    display: flex;
+    justify-content: end;
+    width: calc(100% - 70% - 120px);
+
+    // justify-content: center;
+    button {
+      display: flex;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+  }
+}
