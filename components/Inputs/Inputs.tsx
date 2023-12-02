@@ -10,7 +10,7 @@ export const InputField = ({
   return (
     <div className={styles.inputField}>
       <input
-        onChange={(e) => onChange(e)}
+        onChange={(e) => onChange(e.target.value)}
         name={name}
         value={value}
         placeholder={placeholder}

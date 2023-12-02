@@ -9,10 +9,11 @@ export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3003" }),
   tagTypes: ["jobs"],
   endpoints: (builder) => ({
-    getJobs: builder.query<Jobs[], void>({
+    getJobs: builder.query<Jobs[], {title:string}>({
       query: (params) => ({
         url: `/jobs`,
         method: "GET",
+        params
       }),
       providesTags: ["jobs"],
     }),
