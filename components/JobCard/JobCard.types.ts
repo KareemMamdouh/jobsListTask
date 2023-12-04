@@ -5,4 +5,5 @@ interface JobCardProps {
   city: string;
   sector: string;
   description: string;
+  handleEdit?: (e: JobCardProps) => void;
 }
