@@ -19,8 +19,15 @@ yarn dev
 
 ### screenshot
 
+1
+
 ![![Alt text](image.png)
 ](assets/screenshot.png)
+
+2
+
+![
+![Alt text](image.png)](assets/screenshot2.png)
 
 ### Task requirements
 

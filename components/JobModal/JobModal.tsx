@@ -156,6 +156,14 @@ const JobModal = ({ modal, setModal }: JobModalProps) => {
                 className={styles.cancelBtn}
                 onClick={() => {
                   setModal({ status: false, state: null });
+                  setState({
+                    id: "",
+                    title: "",
+                    city: "",
+                    sector: "",
+                    country: "",
+                    description: "",
+                  });
                 }}
               >
                 Cancel
