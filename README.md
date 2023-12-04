@@ -17,6 +17,11 @@ yarn dev
 - finish all Additional points
 - Using TS
 
+### screenshot
+
+![![Alt text](image.png)
+](assets/screenshot.png)
+
 ### Task requirements
 
 1. Allow users to add new job posts and insert data into a JSON file.
